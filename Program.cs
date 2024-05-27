@@ -8,6 +8,46 @@ namespace NumbersInCSharp
         {
             WorkWithIntegers();
             OrderPrecedence();
+            TestLimits();
+            WorkWithDoubles();
+
+            void TestLimits() {
+                int a = 7;
+                int b = 4;
+                int c = 3;
+                int d = (a + b) / c;
+                int e = (a + b) % c;
+                Console.WriteLine($"quotient: {d}");
+                Console.WriteLine($"remainder: {e}");
+                
+                int maxInt = int.MaxValue;
+                int minInt = int.MinValue;
+                Console.WriteLine($"The range of integers is {minInt} to {maxInt}");
+
+                int what = maxInt + 3;
+                Console.WriteLine($"An example of overflow: {what}");
+            }
+
+            void WorkWithDoubles() {
+                double aa = 5;
+                double bb = 4;
+                double cc = 2;
+                double dd = (aa + bb) / cc;
+                Console.WriteLine(dd);
+
+                double ee = 19;
+                double ff = 23;
+                double gg = 8;
+                double hh = (ee + ff) / gg;
+                Console.WriteLine(hh);
+
+                double maxDbl = double.MaxValue;
+                double minDbl = double.MinValue;
+                Console.WriteLine($"The range of double is {minDbl} to {maxDbl}");
+
+                double third = 1.0 / 3.0;
+                Console.WriteLine(third);
+            }
 
             void OrderPrecedence() {
                 int a = 5;
