@@ -47,6 +47,9 @@ namespace NumbersInCSharp
 
                 double third = 1.0 / 3.0;
                 Console.WriteLine(third);
+
+                double circumference = Math.PI * (30 * 30);
+                Console.WriteLine(circumference);
             }
 
             void OrderPrecedence() {
