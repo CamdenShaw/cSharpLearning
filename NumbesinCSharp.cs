@@ -10,6 +10,14 @@ namespace NumbersInCSharp
             OrderPrecedence();
             TestLimits();
             WorkWithDoubles();
+            CircleAreaChallenge();
+
+            void CircleAreaChallenge() {
+                double r = 2.5;
+                double area = r * r * Math.PI;
+
+                Console.WriteLine($"The area of the circle is {area}");
+            }
 
             void TestLimits() {
                 int a = 7;
