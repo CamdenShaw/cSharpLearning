@@ -1,0 +1,9 @@
+/Users/camdenshaw/Documents/C#/Intro/bin/Debug/netcoreapp1.1/IfsAndLoops.deps.json
+/Users/camdenshaw/Documents/C#/Intro/bin/Debug/netcoreapp1.1/IfsAndLoops.runtimeconfig.json
+/Users/camdenshaw/Documents/C#/Intro/bin/Debug/netcoreapp1.1/IfsAndLoops.runtimeconfig.dev.json
+/Users/camdenshaw/Documents/C#/Intro/bin/Debug/netcoreapp1.1/IfsAndLoops.dll
+/Users/camdenshaw/Documents/C#/Intro/bin/Debug/netcoreapp1.1/IfsAndLoops.pdb
+/Users/camdenshaw/Documents/C#/Intro/obj/Debug/netcoreapp1.1/IfsAndLoops.csproj.CoreCompileInputs.cache
+/Users/camdenshaw/Documents/C#/Intro/obj/Debug/netcoreapp1.1/IfsAndLoops.AssemblyInfo.cs
+/Users/camdenshaw/Documents/C#/Intro/obj/Debug/netcoreapp1.1/IfsAndLoops.dll
+/Users/camdenshaw/Documents/C#/Intro/obj/Debug/netcoreapp1.1/IfsAndLoops.pdb
