@@ -2,9 +2,9 @@
 
 namespace NumbersInCSharp
 {
-    class Program
+    class NumbersProgram
     {
-        static void Main(string[] args)
+        public static void MainNumbers()
         {
             WorkWithIntegers();
             OrderPrecedence();
