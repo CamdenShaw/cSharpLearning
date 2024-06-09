@@ -7,7 +7,8 @@ namespace IfsAndLoops
         public static void MainLogic()
         {
             // ExploreIf();
-            ExploreLoops();
+            // ExploreLoops();
+            ExploreNestedLoops();
 
             void ExploreIf()
             {
@@ -70,6 +71,19 @@ namespace IfsAndLoops
                 for(int index = 10; index > 0; index--)
                 {
                     Console.WriteLine($"Hello World! The index is {index}");
+                }
+            }
+
+            void ExploreNestedLoops()
+            {
+                for (int row = 1; row < 11; row++)
+                {
+                    Console.WriteLine($"The row is {row}");
+                    for (char column = 'a'; column < 'k'; column++)
+                    {
+                        Console.WriteLine($"The column is {column}");
+                        Console.WriteLine($"The cell is {row}, {column}");
+                    }
                 }
             }
         }
