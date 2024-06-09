@@ -98,7 +98,7 @@ namespace IfsAndLoops
                         sum3 += i;
                     }
                 }
-                Console.WriteLine($"The sum of all numbers divisible by three from one to twenty is {sum3}");
+                Console.WriteLine($"The sum of all numbers divisible by three from zero to twenty is {sum3}");
             }
 
         }
