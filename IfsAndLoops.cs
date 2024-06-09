@@ -8,7 +8,8 @@ namespace IfsAndLoops
         {
             // ExploreIf();
             // ExploreLoops();
-            ExploreNestedLoops();
+            // ExploreNestedLoops();
+            ExploreCombinations();
 
             void ExploreIf()
             {
@@ -86,6 +87,20 @@ namespace IfsAndLoops
                     }
                 }
             }
+            void ExploreCombinations()
+            {
+                int sum3 = 0;
+                for(int i = 0; i <= 20; i++)
+                {
+                    if (i % 3 == 0)
+                    {
+                        Console.WriteLine($"{i} is divisible by three.");
+                        sum3 += i;
+                    }
+                }
+                Console.WriteLine($"The sum of all numbers divisible by three from one to twenty is {sum3}");
+            }
+
         }
     }
 }
