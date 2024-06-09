@@ -66,6 +66,11 @@ namespace IfsAndLoops
                 {
                     Console.WriteLine($"Hello World! The index is {index}");
                 }
+
+                for(int index = 10; index > 0; index--)
+                {
+                    Console.WriteLine($"Hello World! The index is {index}");
+                }
             }
         }
     }
