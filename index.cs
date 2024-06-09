@@ -1,5 +1,6 @@
 using System;
 using static NumbersInCSharp.NumbersProgram;
+using static IfsAndLoops.LogicProgram;
 
 namespace Index
 {
@@ -7,8 +8,8 @@ namespace Index
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello ReProgram");
-            MainNumbers();
+            // MainNumbers();
+            MainLogic();
         }
     }
 }
